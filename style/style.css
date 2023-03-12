@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #e71fff;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: purple;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+
+/* Registration page css */
+
+label {
+    color: #e71fff;
+    font-weight: bold;
+}
+
+h1 {
+    color: #e71fff;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.form-control {
+    background-color: black;
+    color: aliceblue;
+}
+
+.form-control::placeholder {
+    color: aliceblue;
+}
+
+.btn {
+    background-color: #e71fff;
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px 25px 10px 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn:hover {
+    color: aliceblue;
+}
+
+i {
+    color: white;
+    font-size: 15px;
+}
+
+
+/* Registration page css end */
+
+
+/* Hero Image page css  */
+
+.heroImage {
+    background-color: black;
+    /* filter: brightness(0.90); */
+    filter: brightness(0.30);
+}
+
+
+/* Hero Image page css end */
+
+.mainImage {
+    position: absolute;
+    top: 80px;
+    left: 450px;
+}
+
+.mainImage p {
+    font-size: 60px;
+}
+
+.mainImage1 {
+    position: relative;
+    bottom: 280px;
+}
+
+.mainImage1 p {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-family: "Inter", Arial, sans-serif;
+    }
+    i {
+        color: white;
+        font-size: 10px;
+    }
+    .mainImage {
+        position: absolute;
+        top: 5px;
+        left: 80px;
+    }
+    .mainImage p {
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .mainImage1 {
+        position: relative;
+        bottom: 120px;
+    }
+    .mainImage1 p {
+        font-size: 13px;
+    }
+}
